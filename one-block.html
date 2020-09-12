@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8">
+  <title>one-block</title> 
+  <style>
+
+    body {
+        background-color: cyan;
+        margin: 0px;
+    }
+
+    @media (min-width:1280px) {
+        .one-block {
+        background-color: yellow;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto 50px;
+        }
+    }
+
+    @media (max-width:1280px) {
+        .one-block {
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto 50px;
+        }
+    }
+
+    @media (max-width:1024px) {
+        .one-block {
+        background-color: red;
+        border-radius: 10%;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto 50px;
+        }
+    }
+
+    @media (max-width:768px) {
+        .one-block {
+        background-color: yellow;
+        border-radius: 10%;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto 50px;
+        }
+    }
+
+    @media (max-width:640px) {
+        .one-block {
+        background-color: yellow;
+        border-radius: 10%;
+        border: solid red 3px;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto 50px;
+        }
+    }
+    
+    @media (max-width:480px) {
+        .one-block {
+        background-color: yellow;
+        border-radius: 50%;
+        border: solid red 3px;
+        width: 98vw;
+        height: 98vw;
+
+        }
+    }
+
+    @media all and (max-width:320px) {
+        .one-block {
+        background-color: yellow;
+        width: 400px;
+        height: 400px;
+        margin: 0;
+        border-radius: 0%;
+        border: solid yellow 3px;
+        }
+    }
+
+  </style>
+</head> 
+<body> 
+  
+<div class="one-block"></div>
+
+</body> 
+</html>
+
